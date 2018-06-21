@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(index, board)
-  if index < 9 && board[index] == "X" && board[index] == "O"
+  if index.to_i < 9 && board[index] == "X" && board[index] == "O"
     return true
   else
     return false
