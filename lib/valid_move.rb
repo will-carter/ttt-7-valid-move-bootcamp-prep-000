@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?
-  if input < 10
+  if index < 9
     return true
   else
     return false
